@@ -6,7 +6,7 @@ This repository contains the technical specification for Aquila Network componen
 
 ## Index
 
-- **Aquila Network** overview
+- [**Aquila Network** overview](https://github.com/Aquila-Network/specs/blob/main/Aquila%20Network.md)
 - Aquila **DB**
 	- Content Addressing
 	- Authentication & Ownership
