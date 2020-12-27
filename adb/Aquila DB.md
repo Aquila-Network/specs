@@ -24,4 +24,6 @@ Aquila DB is at the core of everything in the Aquila Network ecosystem. It is a 
 
   >  Note: It is an on going discussion whether to enable filtering on documents based on their JSON values. Since Aquila DB to be a part of already existing software infrastructure and databases, that is dedicated to provide complex filtering options anyway, we thought it might become an over engineered solution which contradicts with Aquila Network's simplicity mission. Also, Aquila X could still filter out Aquila DB's results. We're looking forward to see how community reacts to it.
 
-  
+  ##### Notion of an update operation
+
+  An update operation in Aquila DB is nothing but a `delete` operation followed by a `create` operation. It is not implemented in Aquila DB. It is up to the application developer to do it when needed.
