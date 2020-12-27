@@ -1,5 +1,9 @@
 # Aquila Network Overview
 
+**Authors:  *Jubin Jose*, *Nibin Peter***
+
+
+
 Aquila Network in a nutshell is a "decentralized self organizing information discovery and service layer".
 
  

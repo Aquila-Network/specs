@@ -1,5 +1,9 @@
 # Aquila DB
 
+**Authors:  *Jubin Jose*, *Nibin Peter***
+
+
+
 Aquila DB is at the core of everything in the Aquila Network ecosystem. It is a standalone latent vector search engine. Aquila DB allows the following, very basic operations:
 
 - Create database
