@@ -8,7 +8,7 @@ This repository contains the technical specification for Aquila Network componen
 
 #### **[Aquila Network overview](https://github.com/Aquila-Network/specs/blob/main/Aquila%20Network.md)**
 #### **[Aquila DB](https://github.com/Aquila-Network/specs/blob/main/adb/Aquila%20DB.md)**
-- Content Addressing
+- [Content Addressing](https://github.com/Aquila-Network/specs/blob/main/adb/Content%20Addressing.md)
 - Authentication & Ownership
 	- Asymmetric key signing
 		- RSA
