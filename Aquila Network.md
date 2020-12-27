@@ -12,7 +12,7 @@ When we look at developments in this space, a lot of activity and progress is ha
 
 
 
-Aquila Network's design philosophy is "**simplicity and reusability**". It is designed in a way to embrace the very fundamentals of technology and fine tune to make the modules even simpler, iteratively. Aquila Network never reinvents the wheel, if not necessary to reduce transition cost for everyone.
+Aquila Network's design philosophy is "**simplicity and reusability**". It is designed in a way to embrace the very fundamentals of technology and fine tune to make the modules even simpler, iteratively. Aquila Network never reinvents the wheel, if not necessary. This is to reduce transition cost for everyone.
 
 
 
