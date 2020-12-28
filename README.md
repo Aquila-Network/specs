@@ -14,7 +14,7 @@ This repository contains the technical specification for Aquila Network componen
 		- RSA
 		- ECDSA
 	- Notion of a wallet
-- Database (search index)
+- [Database (search index)](https://github.com/Aquila-Network/specs/blob/main/adb/Database.md)
 	- Schema
 		- Schema definition
 			- Metadata
