@@ -26,7 +26,7 @@ In Aquila DB, A database name and a document id are content addressed.
 
 `database_name = CID(JSON_schema_definition)`
 
-More detail on schema definition can be found at [schema specifications]().
+More detail on schema definition can be found at [schema specification](https://github.com/Aquila-Network/specs/blob/main/adb/Schema.md).
 
 **Document id:**
 
