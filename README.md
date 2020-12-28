@@ -16,9 +16,9 @@ This repository contains the technical specification for Aquila Network componen
 	- Notion of a wallet
 - [Database (search index)](https://github.com/Aquila-Network/specs/blob/main/adb/Database.md)
 	- Schema
-    - [Schema definition](https://github.com/Aquila-Network/specs/blob/main/adb/Schema.md)
-    - Metadata
-    - Schema validation
+		- [Schema definition](https://github.com/Aquila-Network/specs/blob/main/adb/Schema.md)
+		- Metadata
+		- Schema validation
 	- Creating a database
 - Document
 	- Document lifecycle
