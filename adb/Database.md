@@ -1,5 +1,9 @@
 # Database (Search Index)
 
+**Authors:  *Jubin Jose*, *Nibin Peter***
+
+
+
 A database in Aquila DB is a collection of documents that conforms to a schema definition. It can also be considered as a search index since one of its main function is to serve nearest neighbour queries from within the indexed documents. A database name is universal and is deterministically generated from it's [schema](https://github.com/Aquila-Network/specs/blob/main/adb/Schema.md) definition's [content address](https://github.com/Aquila-Network/specs/blob/main/adb/Content%20Addressing.md).
 
 
