@@ -9,19 +9,19 @@ This repository contains the technical specification for Aquila Network componen
 #### **[Aquila Network overview](https://github.com/Aquila-Network/specs/blob/main/Aquila%20Network.md)**
 #### **[Aquila DB](https://github.com/Aquila-Network/specs/blob/main/adb/Aquila%20DB.md)**
 - [Content Addressing](https://github.com/Aquila-Network/specs/blob/main/adb/Content%20Addressing.md)
-- Authentication & Ownership
-	- Asymmetric key signing
-		- RSA
-		- ECDSA
-	- Notion of a wallet
+- [Authentication & Ownership](https://github.com/Aquila-Network/specs/blob/main/adb/Authentication%20%26%20Ownership)
+	- [Asymmetric key signing](https://github.com/Aquila-Network/specs/blob/main/adb/Asymmetric%20key%20signing)
+		- [RSA](https://github.com/Aquila-Network/specs/blob/main/adb/Asymmetric%20key%20signing#ras)
+		- [ECDSA](https://github.com/Aquila-Network/specs/blob/main/adb/Asymmetric%20key%20signing#ecdsa)
+	- [Notion of a wallet](https://github.com/Aquila-Network/specs/blob/main/adb/Notion%20of%20a%20wallet)
 - [Database (search index)](https://github.com/Aquila-Network/specs/blob/main/adb/Database.md)
-	- Schema
-		- [Schema definition](https://github.com/Aquila-Network/specs/blob/main/adb/Schema.md)
+	- [Schema](https://github.com/Aquila-Network/specs/blob/main/adb/Schema.md)
+		- [Schema definition](https://github.com/Aquila-Network/specs/blob/main/adb/Schema.md#schema-definition)
 		- Metadata
 		- Schema validation
 	- Creating a database
 - Document
-	- Document lifecycle
+	- Document life-cycle
 		- Creating a document
 		- Deleting a document
 		- Updating a document
