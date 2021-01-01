@@ -4,7 +4,7 @@
 
 
 
-A schema definition is a [JSON Schema](https://json-schema.org/) object which takes the following form. The ordering of keys should be maintained the same way as seen below: 
+A schema is a [JSON Schema](https://json-schema.org/) object which takes the following form. The ordering of keys should be maintained the same way as seen below: 
 
 ```json
 { 
@@ -51,7 +51,7 @@ A schema definition is a [JSON Schema](https://json-schema.org/) object which ta
 
 ### Schema definition
 
-Above JSON object is auto-generated within Aquila DB (system level) and is the original schema definition over which CID is generated. Aquila DB should also accept a different JSON schema at the API (user level) which is intended to collect all the necessary information from the user to generate the original system level schema:
+Above JSON object is auto-generated within Aquila DB (system level) and is the original schema over which CID is generated. Aquila DB should also accept a different JSON schema definition at the API (user level) which is intended to collect all the necessary information from the user to generate the original system level schema. Here is an example schema definition:
 
 ```json
 {
