@@ -17,7 +17,7 @@ This repository contains the technical specification for Aquila Network componen
 - [Database (search index)](https://github.com/Aquila-Network/specs/blob/main/adb/Database.md)
 	- [Schema](https://github.com/Aquila-Network/specs/blob/main/adb/Schema.md)
 		- [Schema definition](https://github.com/Aquila-Network/specs/blob/main/adb/Schema.md#schema-definition)
-		- Metadata
+		- [Metadata](https://github.com/Aquila-Network/specs/blob/main/adb/Metadata.md)
 		- Schema validation
 	- Creating a database
 - Document
