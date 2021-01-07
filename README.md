@@ -18,8 +18,8 @@ This repository contains the technical specification for Aquila Network componen
 	- [Schema](https://github.com/Aquila-Network/specs/blob/main/adb/Schema.md)
 		- [Schema definition](https://github.com/Aquila-Network/specs/blob/main/adb/Schema.md#schema-definition)
 		- [Metadata](https://github.com/Aquila-Network/specs/blob/main/adb/Metadata.md)
-		- Schema validation
-	- Creating a database
+		- [Schema validation](https://github.com/Aquila-Network/specs/blob/main/adb/Schema%20validation.md)
+	- [Creating a database](https://github.com/Aquila-Network/specs/blob/main/adb/Creating%20a%20database.md)
 - Document
 	- Document life-cycle
 		- Creating a document

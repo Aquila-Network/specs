@@ -45,7 +45,7 @@ A schema is a [JSON Schema](https://json-schema.org/) object which takes the fol
     }
 ```
 
-
+> Metadata is organised in such a way to preserve the alphabetical order of keys.
 
 
 
