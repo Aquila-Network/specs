@@ -48,7 +48,7 @@ def AquilaDB_DB_create_API (user_defined_schema):
     # generate actual schema from user defined schema
     generated_schema = { 
         "$schema": "http://json-schema.org/schema#", 
-        "$id": "http://aquilanetwork.com/schema/id/v1", 
+        "$id": "//aquilanetwork/schema/id/v1", 
         "title": "Schema", 
         "description": <user_defined_schema.description>,
         "encoder": <user_defined_schema.encoder>,
