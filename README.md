@@ -20,19 +20,19 @@ This repository contains the technical specification for Aquila Network componen
 		- [Metadata](https://github.com/Aquila-Network/specs/blob/main/adb/Metadata.md)
 		- [Schema validation](https://github.com/Aquila-Network/specs/blob/main/adb/Schema%20validation.md)
 	- [Creating a database](https://github.com/Aquila-Network/specs/blob/main/adb/Creating%20a%20database.md)
-- Document
-	- Document life-cycle
-		- Creating a document
-		- Deleting a document
-		- Updating a document
-- Vector search
-	- Vector indexing
-		- Full search
-		- Bucket search
-		- k-NN search
-		- Radius search
-		- Notion of error
-- API
+- [Document](https://github.com/Aquila-Network/specs/blob/main/adb/Document.md)
+	- [Document life-cycle](https://github.com/Aquila-Network/specs/blob/main/adb/Document.md#document-life-cycle)
+		- [Creating a document](https://github.com/Aquila-Network/specs/blob/main/adb/Document.md#creating-a-document)
+		- [Deleting a document](https://github.com/Aquila-Network/specs/blob/main/adb/Document.md#deleting-a-document)
+		- [Updating a document](https://github.com/Aquila-Network/specs/blob/main/adb/Document.md#updating-a-document)
+- [Vector search](https://github.com/Aquila-Network/specs/blob/main/adb/Vector%20search.md)
+	- [Vector indexing](https://github.com/Aquila-Network/specs/blob/main/adb/Vector%20search.md#vector-indexing)
+		- [Full search](https://github.com/Aquila-Network/specs/blob/main/adb/Vector%20search.md#full-search)
+		- [Bucket search](https://github.com/Aquila-Network/specs/blob/main/adb/Vector%20search.md#bucket-search)
+		- [k-NN search](https://github.com/Aquila-Network/specs/blob/main/adb/Vector%20search.md#k-nn-search)
+		- [Radius search](https://github.com/Aquila-Network/specs/blob/main/adb/Vector%20search.md#radius-search)
+		- [Notion of error](https://github.com/Aquila-Network/specs/blob/main/adb/Vector%20search.md#notion-of-error)
+- [API](https://github.com/Aquila-Network/specs/blob/main/adb/API.md)
 #### Aquila **Port**
 - Eventual consistency of events
 	- Version managing a document
