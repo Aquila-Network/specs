@@ -20,6 +20,10 @@ For convenience, Aquila DB requires the expected `keys` in `metadata` object to 
 
 
 
+Currently, accepted types of metadata values are `string` and `number`.
+
+
+
 > **Important**: Aquila DB will accept any extra information added to the document. This information will be treated as payload, will be moved to a secondary storage, will not be replicated through Aquila Network but the secondary storage network and is ignored in querying and filtering operations.
 
 > Aquila DB users must maintain external storage networks and second level filtering mechanisms outside of Aquila DB.
