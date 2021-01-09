@@ -52,7 +52,7 @@ document_id = Delete_document_API(sign(document_id, database_name))
 
 ### Updating a document
 
-As mentioned earlier, there is no update operation available in Aquila DB to keeps things very simple. An update operation is considered to be done at the user managed high-level layer by abstracting a sequence of a `delete` followed by a `create` operations. The user is supposed to map newly returned document ID to the old one accordingly at the higher level.
+As mentioned earlier, there is no update operation available in Aquila DB to keep things very simple. An update operation is considered to be done at the user managed high-level layer by abstracting a sequence of a `delete` followed by a `create` operations. The user is supposed to map newly returned document ID to the old one accordingly at the higher level.
 
 
 
