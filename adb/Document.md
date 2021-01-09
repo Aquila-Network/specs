@@ -49,7 +49,7 @@ document_id = delete_document_API(sign_message(document_id, database_name))
 ```python
 def delete_document_API (document_id, database_name):
     document_reference = get_reference_to_document(document_id, database_name)
-    document_reference[__delete__] = True
+    document_reference[__deleted__] = True
 ```
 
 
