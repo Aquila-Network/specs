@@ -25,7 +25,7 @@ To create a document, construct a valid JSON object which follows the schema def
 
 
 ```python
-document_id = Create_document_API(sign_message(JSON_document, database_name))
+document_id = create_document_API(sign_message(JSON_document, database_name))
 ```
 
 
@@ -41,8 +41,18 @@ Since a document is immutable, delete operation doesn't really delete a document
   
 
 ```python
-document_id = Delete_document_API(sign_message(document_id, database_name))
+document_id = delete_document_API(sign_message(document_id, database_name))
 ```
+
+**Flag operation**
+
+```python
+def delete_document_API (document_id, database_name):
+    document_reference = get_reference_to_document(document_id, database_name)
+    document_reference[__delete__] = True
+```
+
+
 
 
 
