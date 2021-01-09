@@ -18,7 +18,7 @@ Aquila DB currently supports wallets that use private-public key pairs to sign m
 #### Pseudo-code for generating signature of a JSON request
 
 ```python
-def sign (JSON_request)
+def sign_message (JSON_request)
     bson_request = bson(JSON_request)
     hash = SHA384(bson_request)
     
