@@ -56,7 +56,7 @@ def delete_document_API (document_id, database_name):
 
 
 
-> Note: Independent, conflicting operations over document states are resolved `eventually`, through [`"eventual consistency"`](https://en.wikipedia.org/wiki/Eventual_consistency) strategies. It is important to note that, Aquila DB is not a real time database but an eventually consistent one with guaranteed state convergence.
+> Note: Independent, conflicting operations over document states are resolved `eventually`, through [`"eventual consistency"`](https://en.wikipedia.org/wiki/Eventual_consistency) followed by [`"conflict resolution"`](https://en.wikipedia.org/wiki/Eventual_consistency#Conflict_resolution) strategies. It is important to note that, Aquila DB is not a real time database but an eventually consistent one with guaranteed state convergence.
 
 
 
