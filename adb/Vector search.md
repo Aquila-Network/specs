@@ -47,3 +47,10 @@ Radius search performs [k-NN search](https://en.wikipedia.org/wiki/Nearest_neigh
 
 
 ## Notion of error
+
+Aquila DB transparency APIs should include `error metric benchmark`. Below are the expected results along with pseudo-code to generate them:
+
+```
+coming soon
+```
+
