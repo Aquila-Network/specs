@@ -1,4 +1,4 @@
-# Aquila Network Specifications
+# Aquila Network Specifications v0.1.0 (draft)
 
 This repository contains the technical specification for Aquila Network component protocols. Follow this specification to implement core components of Aquila Network Ecosystem and to connect to the network. If you prefer to use implementations by Aquila Network team please visit our [Github Repository](https://github.com/Aquila-Network).
 
