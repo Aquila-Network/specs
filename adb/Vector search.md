@@ -38,8 +38,12 @@ Bucket searches are limited to a pre-configured / dynamically specified number o
 
 ### k-NN search
 
+[k-NN search](https://en.wikipedia.org/wiki/Nearest_neighbor_search) is performed to retrieve `k` number of nearest vectors to the query vector from the database. Search API should take in the limit `k` along with the query vector and should return maximum `k` vectors as response. k-NN search is pre-constrained by the domain constraints applicable.
+
 ### Radius search
 
+Radius search performs [k-NN search](https://en.wikipedia.org/wiki/Nearest_neighbor_search) to retrieve all vectors within a specified radius `r` to query vector. Search API should take in the radius `r` along with the query vector and should return all vectors within `r` as response. k-NN search is pre-constrained by the domain constraints applicable.
 
 
-### Notion of error
+
+## Notion of error
