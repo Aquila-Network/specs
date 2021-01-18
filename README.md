@@ -45,8 +45,8 @@ This repository contains the technical specification for Aquila Network componen
 - IPFS storage
 - API
 #### Aquila **Hub**
-- Dynamic loading a model
-- Serving a model
-- API
+- [Dynamic loading a model](https://github.com/Aquila-Network/specs/blob/main/ahub/Dynamic%20loading%20a%20model.md)
+- [Serving a model](https://github.com/Aquila-Network/specs/blob/main/ahub/Serving%20a%20model.md)
+- [API](https://github.com/Aquila-Network/specs/blob/main/ahub/API.md)
 #### Aquila **X**
 - API
