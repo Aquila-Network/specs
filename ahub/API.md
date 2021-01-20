@@ -3,8 +3,20 @@
 **Authors:  Jubin Jose**
 
 
+Some API requests are marked to be cryptographically signed before making into Aquila Hub. Below are the generic steps for making API requests.
 
-Make API request with header `headers["Content-Type"] = "application/json"`.
+1. Prepare a JSON message as it is specified under each API below.
+2. If required, sign the JSON message as specified in [asymmetric key signing](https://github.com/Aquila-Network/specs/blob/main/adb/Asymmetric%20key%20signing.md#pseudo-code-for-generating-signature-of-a-json-request) section.
+3. Wrap JSON message and signature in the following request format: 
+
+```python
+data = {
+    "data": <JSON message>,
+    "signature": signature
+}
+```
+
+4. Make API request with header `headers["Content-Type"] = "application/json"`.
 
 
 
@@ -36,7 +48,7 @@ response:
 ### Transaction APIs
 **1. Prepare a model:**
 
-[POST]  /prepare
+[POST]  /prepare [Sign message]
 
 request:
 
