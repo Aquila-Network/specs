@@ -6,8 +6,8 @@ This repository contains the technical specification for Aquila Network componen
 
 ## Index
 
-#### **[Aquila Network overview](https://github.com/Aquila-Network/specs/blob/main/Aquila%20Network.md)**
-#### **[Aquila DB](https://github.com/Aquila-Network/specs/blob/main/adb/Aquila%20DB.md)**
+#### [Aquila Network overview](https://github.com/Aquila-Network/specs/blob/main/Aquila%20Network.md)
+#### [Aquila DB](https://github.com/Aquila-Network/specs/blob/main/adb/Aquila%20DB.md)
 - [Content Addressing](https://github.com/Aquila-Network/specs/blob/main/adb/Content%20Addressing.md)
 - [Authentication & Ownership](https://github.com/Aquila-Network/specs/blob/main/adb/Authentication%20%26%20Ownership.md)
 	- [Asymmetric key signing](https://github.com/Aquila-Network/specs/blob/main/adb/Asymmetric%20key%20signing.md)
@@ -33,7 +33,7 @@ This repository contains the technical specification for Aquila Network componen
 		- [Radius search](https://github.com/Aquila-Network/specs/blob/main/adb/Vector%20search.md#radius-search)
 		- [Notion of error](https://github.com/Aquila-Network/specs/blob/main/adb/Vector%20search.md#notion-of-error)
 - [API](https://github.com/Aquila-Network/specs/blob/main/adb/API.md)
-#### Aquila **Port**
+#### Aquila Port
 - Eventual consistency of events
 	- Version managing a document
 		- Version ID convention
@@ -44,9 +44,11 @@ This repository contains the technical specification for Aquila Network componen
 - Ceramic protocol
 - IPFS storage
 - API
-#### Aquila **Hub**
+#### [Aquila Hub](https://github.com/Aquila-Network/specs/blob/main/ax/Aquila%20Hub.md)
 - [Dynamic loading a model](https://github.com/Aquila-Network/specs/blob/main/ahub/Dynamic%20loading%20a%20model.md)
 - [Serving a model](https://github.com/Aquila-Network/specs/blob/main/ahub/Serving%20a%20model.md)
 - [API](https://github.com/Aquila-Network/specs/blob/main/ahub/API.md)
-#### Aquila **X**
-- API
+#### [Aquila X](https://github.com/Aquila-Network/specs/blob/main/ax/Aquila%20X.md#aquila-x)
+- [UI](https://github.com/Aquila-Network/specs/blob/main/ax/Aquila%20X.md#ui)
+- [Functionalities](https://github.com/Aquila-Network/specs/blob/main/ax/Aquila%20X.md#aquila-x-functionalities)
+- [API](https://github.com/Aquila-Network/specs/blob/main/ax/Aquila%20X.md#x-api)
