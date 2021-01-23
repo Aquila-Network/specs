@@ -1,6 +1,10 @@
 # Aquila X
 
-## UI
+**Authors:  Jubin Jose, Maneksh M S** 
+
+
+
+## X UI
 
 - All Aquila X UI implementation should follow a standard input and output irrespective of the design variations.
 
@@ -161,7 +165,7 @@ response:
 
 
 
-# Aquila X functionalities
+# X functionalities
 
 ### Index
 
