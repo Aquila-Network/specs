@@ -38,11 +38,10 @@ This repository contains the technical specification for Aquila Network componen
 	- Version managing a document
 		- Version ID convention
 	- Conflict resolution
-		- Timestamp
 		- Block-height
-- Couch replication protocol
-- Ceramic protocol
-- IPFS storage
+		- Timestamp
+		- Delete status
+- Aquila Replication Protocol
 - API
 #### [Aquila Hub](https://github.com/Aquila-Network/specs/blob/main/ax/Aquila%20Hub.md)
 - [Dynamic loading a model](https://github.com/Aquila-Network/specs/blob/main/ahub/Dynamic%20loading%20a%20model.md)
