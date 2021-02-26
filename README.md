@@ -33,16 +33,16 @@ This repository contains the technical specification for Aquila Network componen
 		- [Radius search](https://github.com/Aquila-Network/specs/blob/main/adb/Vector%20search.md#radius-search)
 		- [Notion of error](https://github.com/Aquila-Network/specs/blob/main/adb/Vector%20search.md#notion-of-error)
 - [API](https://github.com/Aquila-Network/specs/blob/main/adb/API.md)
-#### Aquila Port
-- Eventual consistency of events
-	- Version managing a document
-		- Version ID convention
-	- Conflict resolution
-		- Block-height
-		- Timestamp
-		- Delete status
-- Aquila Replication Protocol
-- API
+#### [Aquila Port](https://github.com/Aquila-Network/specs/blob/main/aport/Aquila%20Port.md)
+- [Eventual consistency of events](https://github.com/Aquila-Network/specs/blob/main/aport/Eventual%20consistency%20of%20events.md)
+	- [Version managing a document](https://github.com/Aquila-Network/specs/blob/main/aport/Eventual%20consistency%20of%20events.md#version-managing-a-document)
+		- [Version ID convention](https://github.com/Aquila-Network/specs/blob/main/aport/Eventual%20consistency%20of%20events.md#version-id-convention)
+	- [Conflict resolution](https://github.com/Aquila-Network/specs/blob/main/aport/Eventual%20consistency%20of%20events.md#conflict-resolution)
+		- [Block-height](https://github.com/Aquila-Network/specs/blob/main/aport/Eventual%20consistency%20of%20events.md#block-height)
+		- [Timestamp](https://github.com/Aquila-Network/specs/blob/main/aport/Eventual%20consistency%20of%20events.md#timestamp)
+		- [Delete status](https://github.com/Aquila-Network/specs/blob/main/aport/Eventual%20consistency%20of%20events.md#delete-status)
+- [Aquila Replication Protocol](https://github.com/Aquila-Network/specs/blob/main/aport/Aquila%20replication%20protocol.md)
+- [API](https://github.com/Aquila-Network/specs/blob/main/aport/API.md)
 #### [Aquila Hub](https://github.com/Aquila-Network/specs/blob/main/ax/Aquila%20Hub.md)
 - [Dynamic loading a model](https://github.com/Aquila-Network/specs/blob/main/ahub/Dynamic%20loading%20a%20model.md)
 - [Serving a model](https://github.com/Aquila-Network/specs/blob/main/ahub/Serving%20a%20model.md)
