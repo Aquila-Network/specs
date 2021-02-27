@@ -28,7 +28,7 @@ response:
 
 **2. Database exists:** 
 
-[HEAD]  /<database name>
+[HEAD]  /{database name}
 
 request:  
 
@@ -46,7 +46,7 @@ response:
 
 **3. Create Database:** 
 
-[PUT]  /<database name>
+[PUT]  /{database name}
 
 request:  
 
@@ -64,7 +64,7 @@ response:
 
 **4. Get Database Information:** 
 
-[GET]  /<database name>
+[GET]  /{database name}
 
 request:  
 
@@ -82,7 +82,7 @@ response:
 
 **5. Bulk Insert Documents:** 
 
-[POST]  /<database name>/_bulk_docs
+[POST]  /{database name}/_bulk_docs
 
 request:  
 
@@ -115,7 +115,7 @@ response:
 
 **6. Bulk Get Documents:** 
 
-[GET]  /<database name>/_all_docs
+[GET]  /{database name}/_all_docs
 
 request:  
 
@@ -140,7 +140,7 @@ response:
 
 **7. Get Changes List:** 
 
-[GET]  /<database name>/_changes
+[GET]  /{database name}/_changes
 
 request:  
 
@@ -172,7 +172,7 @@ response:
 
 **8. Send Revision Differences:** 
 
-[POST]  /<database name>/_revs_diff
+[POST]  /{database name}/_revs_diff
 
 request:  
 
@@ -198,7 +198,7 @@ response:
 
 **9. Commit Replicated Changes:** 
 
-[POST]  /<database name>/_ensure_full_commit
+[POST]  /{database name}/_ensure_full_commit
 
 request:  
 
@@ -216,7 +216,7 @@ response:
 
 **10. Update Replication Checkpoint:** 
 
-[PUT]  /<database name>/_local
+[PUT]  /{database name}/_local
 
 request:  
 
@@ -240,7 +240,7 @@ response:
 
 **11. Enable Push Replication:** 
 
-[POST]  /<database name>/replicate
+[POST]  /{database name}/replicate
 
 request:  
 
@@ -260,7 +260,7 @@ response:
 
 **12. Disable Push Replication:** 
 
-[DELETE]  /<database name>/replicate
+[DELETE]  /{database name}/replicate
 
 request:  
 
